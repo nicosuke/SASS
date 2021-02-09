@@ -1,6 +1,18 @@
 $azul: #51ddfc;
+$azul-light: lighten($azul, 15%);
+
 $salmon: #e4757a;
+$salmon-light: lighten($salmon, 15%);
+
 $morado: #927bc1;
+$morado-light: lighten($morado, 15%);
+
 $verde: #63cc82;
+$verde-light: lighten($verde, 15%);
+
 $naranjo: #fd7856;
+$naranjo-light: lighten($naranjo, 15%);
+
+
+//media//
 $break: 768px;

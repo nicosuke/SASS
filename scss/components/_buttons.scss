@@ -14,20 +14,40 @@
   
   .default {
     background-color: $azul;
+    &:hover {
+      background-color: $azul-light;
+      transition: 1.5s;
+    }
   }
   
   .error {
     background-color: $salmon;
+    &:hover {
+      background-color: $salmon-light;
+      transition: 1.5s;
+    }
   }
   
   .info {
     background-color: $morado;
+    &:hover {
+      background-color: $morado-light;
+      transition: 1.5s;
+    }
   }
   
   .success {
     background-color: $verde;
+    &:hover {
+      background-color: $verde-light;
+      transition: 1.5s;
+    }
   }
   
   .warning {
     background-color: $naranjo;
+    &:hover {
+      background-color: $naranjo-light;
+      transition: 1.5s;
+    }
   }
